@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider </title>
+    <link rel="stylesheet" href="custom.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <h1><u> Image Slider with Infinite Loop</u> </h1>
+    <main>
+        <img src="https://picsum.photos/id/127/1000/500 " class="slide" alt="">
+        <img src="https://picsum.photos/id/347/1000/500" class="slide" alt="">
+        <img src="https://picsum.photos/id/567/1000/500 " class="slide" alt="">
+        <img src=" https://picsum.photos/id/637/1000/500" class="slide" alt="">
+        <img src=" https://picsum.photos/id/137/1000/500" class="slide" alt="">
+    </main>
+    <div class="nav">
+        <button onclick="goPrev()"> PREV</button>
+        <button onclick="goNext()"> NEXT </button>
+    </div>
+
+
+    <h1><u><b>Image Slider With Multiple Image </b></u></h1>
+    <div class="slider-multiple">
+        <div class="track-multiple">
+            <img src="https://picsum.photos/id/437/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/257/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/477/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/937/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/230/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/737/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/637/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/527/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/787/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/784/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/707/1000/500" class="multiple-slide" alt="">
+            <img src="https://picsum.photos/id/227/1000/500" class="multiple-slide" alt="">
+        </div>
+    </div>
+    <div class="nav">
+        <button onclick="goPrevMulti()">PREV</button>
+        <button onclick="goNextMulti()">NEXT</button>
+    </div>
+
+
+
+    <h1><u>Image Slider with Animation </u></h1>
+    <div class="slider-container">
+        <div class="slider-animation">
+            <img src="https://picsum.photos/id/937/1000/500" class="animation-slide" alt=" Image 1">
+            <img src="https://picsum.photos/id/957/1000/500" class="animation-slide" alt=" Image 2">
+            <img src="https://picsum.photos/id/784/1000/500" class="animation-slide" alt=" Image 3 ">
+            <img src="https://picsum.photos/id/421/1000/500" class="animation-slide" alt=" Image 4">
+            <img src="https://picsum.photos/id/674/1000/500" class="animation-slide" alt=" IMage 5">
+            <img src="https://picsum.photos/id/842/1000/500" class="animation-slide" alt=" Image 6">
+            <img src="https://picsum.photos/id/346/1000/500" class="animation-slide" alt=" Image 7">
+            <img src="https://picsum.photos/id/672/1000/500" class="animation-slide" alt=" Image 8">
+            <img src="https://picsum.photos/id/937/1000/500" class="animation-slide" alt=" Image 1">
+            <img src="https://picsum.photos/id/957/1000/500" class="animation-slide" alt=" Image 2">
+        </div>
+    </div>
+
+
+
+
+    <h1><u>Image Slider Using SWIPER JS</u></h1>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <img src="https://picsum.photos/id/157/1000/500" class="swiper-slide" alt=" Image 1">
+            <img src="https://picsum.photos/id/757/1000/500" class="swiper-slide" alt=" Image 2">
+            <img src="https://picsum.photos/id/557/1000/500" class="swiper-slide" alt=" Image 3">
+            <img src="https://picsum.photos/id/357/1000/500" class="swiper-slide" alt=" Image 4">
+            <img src="https://picsum.photos/id/887/1000/500" class="swiper-slide" alt=" Image 5">
+            <img src="https://picsum.photos/id/677/1000/500" class="swiper-slide" alt=" Image 6">
+            <img src="https://picsum.photos/id/317/1000/500" class="swiper-slide" alt=" Image 7">
+            <img src="https://picsum.photos/id/717/1000/500" class="swiper-slide" alt=" Image 8">
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+    
+
+</body>
+
+</html>
